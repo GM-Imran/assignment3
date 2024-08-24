@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment-3</title>
+  <!-- Google Font CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--DaisyUI CDN  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .font-poppins {
+      font-family: "Poppins", sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-poppins">
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          
+          <a class="btn btn-ghost text-xl"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke-width="1.5" stroke="currentColor" class="size-7 bg-lime-300 p-1.5 rounded-full">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+            <span class="font-12 font-extrabold ">Rinterio</span></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="">Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+
+
+
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6 mr-4 md:block hidden">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+          </a>
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6 mr-4 md:block hidden">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+          </a>
+
+          <a class="bg-lime-400 px-3 py-2 text-xl font-extrabold rounded-xl md:block hidden">
+
+            <span>Book Consult</span> <span class="nav-arrow  "><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="size-8 text-white inline bg-black p-2 rounded-full">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg></span></a>
+        </div>
+      </div>
+    </nav>
+    <!-- banner start -->
+    <div class="mb-40">
+      <div class="text-center">
+        <div class="mx-auto">
+          <img class="w-1/2 mx-auto" src="assets/banner.png" alt="">
+        </div>
+        <div>
+          <h1 class="md:text-6xl text-2xl pb-8 font-extrabold">
+            <span class="#212121">A barn House of this design has a <br> striking appearance</span>
+          </h1>
+          <p class="pb-8">A paragraph is a series of sentences that are organized and coherent, and are all <br> related
+            to a single topic. </p>
+          <a class="bg-lime-200 px-4 py-2 text-xl font-bold rounded-xl">
+
+            <span>View Details</span> <span class="nav-arrow  "><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="size-8 text-1C1C1C inline bg-green p-2 rounded-full">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg></span></a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <section>
+      <div class="grid md:grid-cols-2 gap-8 bg-gray-100	py-16 md:px-36">
+        <div>
+          <div class="-mt-8 mb-8 hidden md:block">
+            <img src="assets/Vector.png" alt="">
+          </div>
+          <h3 class="bg-white inline py-2 px-4 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+            About Us</h3>
+          <h2 class="text-3xl font-extrabold mt-4 mb-4">
+            <span>We design thoughtful,<br>liveable spaces</span>
+          </h2>
+          <p class="mb-4">A paragraph is a series of sentences that are organized <br> and coherent, and are all related
+            to a single
+            topic.</p>
+          <div class="flex gap-6 py-6 px-6 bg-white rounded-lg mb-4">
+            <div>
+              <img src="assets/commercial.png" alt="">
+            </div>
+            <div>
+              <h3 class="font-extrabold">Commercial</h3>
+              <p>A paragraph is a series of sentences <br> that are organized and coherent</p>
+            </div>
+          </div>
+          <div class="flex gap-6 py-6 px-6 bg-white rounded-lg">
+            <div>
+              <img src="assets/residential.png" alt="">
+            </div>
+            <div>
+              <h3 class="font-extrabold">Residential</h3>
+              <p>A paragraph is a series of sentences <br> that are organized and coherent</p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8">
+          <img src="assets/Rectangle.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- our works process section -->
+    <section class="bg-slate-100 pb-24">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center">
+          <h3 class="bg-white inline py-2 px-4 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+            How we works</h3>
+          <h2 class="text-3xl font-extrabold mt-4 mb-4">
+            <span>Our Works Process</span>
+          </h2>
+          <p class="mb-4">A paragraph is a series of sentences that are organized <br> and coherent, and are all related
+            to a single
+            topic.</p>
+        </div>
+        <!-- process card container -->
+        <div class="grid grid-cols-1 lg:grid-cols-4">
+          <!-- process card 1 -->
+          <div class="p-5 spaces-y-4 bg-red-200 mr-6 rounded-lg mb-4">
+            <img src="assets/concept.png" alt="">
+            <h4 class="font-extrabold">Concept</h4>
+            <p>A paragraph is a series of sentences that are organized <br> and coherent
+              topic</p>
+          </div>
+          <!-- process card 2 -->
+          <div class="p-5 spaces-y-4 bg-amber-200 mr-6 rounded-lg mb-4">
+            <img src="assets/flow-chart.png" alt="">
+            <h4 class="font-extrabold">Design Process</h4>
+            <p>A paragraph is a series of sentences that are organized <br> and coherent
+              topic</p>
+          </div>
+          <!-- process card  3 -->
+          <div class="p-5 spaces-y-4 bg-green-200 mr-6 rounded-lg mb-4">
+            <img src="assets/vision.png" alt="">
+            <h4 class="font-extrabold">Supervision</h4>
+            <p>A paragraph is a series of sentences that are organized <br> and coherent
+              topic</p>
+          </div>
+          <!-- process card 4 -->
+          <div class="p-5 spaces-y-4 bg-blue-300 mr-6 rounded-lg mb-4">
+            <img src="assets/budget-planning.png" alt="">
+            <h4 class="font-extrabold">Budget Planning</h4>
+            <p>A paragraph is a series of sentences that are organized <br> and coherent,
+              topic</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="max-w-6xl mx-auto py-24">
+      <div class="text-center">
+        <h3 class="bg-lime-100 inline py-2 px-4 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          Explore our Latest works</h3>
+        <h2 class="text-3xl font-extrabold mt-4 mb-4">
+          <span>Our Latest Portfolio</span>
+        </h2>
+        <p class="mb-4">A paragraph is a series of sentences that are organized <br> and coherent, and are all related
+          to a single
+          topic.</p>
+      </div>
+      <div class="md:flex gap-6 justify-between items-center mt-8">
+        <div class="mb-4 md:mb-4">
+          <img src="assets/img1.png" alt="">
+        </div>
+        <div class="mb-4 md:mb-4">
+          <h3 class="font-extrabold">Commercial</h3>
+          <p>A paragraph is a series of sentences that <br> are organized and coherent,and are all <br> related
+            to a single
+            topic</p>
+          <a class="py-2 text-xl font-bold rounded-xl">
+
+            <span>View Details</span> <span class="nav-arrow  "><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="size-8 text-1C1C1C inline bg-green p-2 rounded-full bg-lime-300">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg></span></a>
+        </div>
+        <div class="mb-4 md:mb-4">
+          <img src="assets/img2.png" alt="">
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-4 max-w-6xl mx-auto mt-8">
+        <div class="mb-4 md:mb-4">
+          <img src="assets/img3.png" alt="">
+        </div>
+        <div class="mb-4 md:mb-4">
+          <img src="assets/img4.png" alt="">
+        </div>
+        <div class="mb-4 md:mb-4">
+          <h3 class="font-extrabold">Commercial</h3>
+          <p>A paragraph is a series of sentences that are organized and coherent,and are allrelated
+           </p>
+          <a class="py-2 text-xl font-bold rounded-xl">
+    
+            <span>View Details</span> <span class="nav-arrow  "><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="size-8 text-1C1C1C inline bg-green p-2 rounded-full bg-lime-300">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg></span></a>
+        </div>
+        <div>
+          <img src="assets/img5.png" alt="">
+        </div>
+       </div>
+    </section>
+   
+    <section class="py-24"
+      style="background-image: url('assets/bg.jpg'); background-size: cover; background-position: center;">
+      <div class="text-center pb-4">
+        <h3 class="bg-lime-100 inline py-2 px-4 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          Let's Connect</h3>
+        <h2 class="text-3xl font-extrabold mt-4 mb-4">
+          <span>Let's Discuss Next Projects</span>
+        </h2>
+        <p class="mb-4">A paragraph is a series of sentences that are organized <br> and coherent, and are all related
+          to a single
+          topic.</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-6 md:px-56 px-8">
+        <label class="input input-bordered flex items-center gap-2">
+          <input type="text" class="grow" placeholder="First Name*" />
+        </label>
+        <label class="input input-bordered flex items-center gap-2">
+          <input type="text" class="grow" placeholder="Last Name*" />
+        </label>
+        <label class="input input-bordered flex items-center gap-2">
+          <input type="text" class="grow" placeholder="Phone Number*" />
+        </label>
+        <label class="input input-bordered flex items-center gap-2">
+          <input type="text" class="grow" placeholder="Email Number*" />
+        </label>
+      </div>
+      <div class="md:px-56 px-8 mt-4">
+        <textarea placeholder="Write your message here"
+          class="textarea textarea-bordered textarea-md w-full mb-4"></textarea>
+        <a class="bg-lime-400 px-3 py-2 text-xl font-extrabold rounded-xl btn btn-block">
+
+          <span>Sand Mail</span> <span class="nav-arrow  "><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              class="size-8 text-white inline bg-black p-2 rounded-full">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg></span></a>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="text-center bg-slate-900 py-24">
+    <a class="btn btn-ghost text-xl"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="currentColor" class="size-7 bg-lime-300 p-1.5 rounded-full">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+      </svg>
+      <span class="font-12 font-extrabold text-white py-4">Rinterio</span></a>
+    <p class="text-[#737373] px-12">A paragraph is a series of sentences that are organized <br> and coherent, and are
+      all related
+      to a single
+      topic.</p>
+    <div class="text-center text-white px-12 py-4">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="">Home</a></li>
+        <li><a>Services</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blogs</a></li>
+        <li><a>Contact Us</a></li>
+      </ul>
+    </div>
+    <a class="bg-lime-400 px-3 py-2 text-xl font-extrabold rounded-xl">
+
+      <span>Book Consult</span> <span class="nav-arrow  "><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+          viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="size-8 text-white inline bg-black p-2 rounded-full">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+        </svg></span></a>
+
+  </footer>
+</body>
+
+</html>
